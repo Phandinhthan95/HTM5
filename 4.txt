@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> Javascript Can Validate </h2>
+<p> Please input a number between 1 and 10 : </p>
+<input id="numb">
+<button type="button" onclick="myFunction()"> Submit </button>
+lOCAL SEX LUU TRU VO HAN
+SESSION SE MAT KHI DONG TAB

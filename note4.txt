@@ -1,0 +1,15 @@
+Viết nội dung jquery bên trong một $(document).ready(), điều này sẽ giúp cho đoạn script chạy sau khi các đoạn code trong file html đã được load xong, không bao gồm việc load các liên kết ngoài như image, iframe, file css, file script,...
+$(document).ready(function(){
+//Nội dung jquery viết ở đây...
+});
+
+Chúng ta có thể viết gọn lại như sau:
+
+$(function(){
+//Nội dung jquery viết ở đây...
+});
+
+Viết nội dung jquery bên trong $(window).load(), điều này sẽ giúp cho đoạn script chạy khi toàn bộ trang web đã được load xong, bao gồm tất cả image, iframe, và cả các liên kết ngoài.
+$(window).load(function(){
+//Nội dung jquery viết ở đây...
+});

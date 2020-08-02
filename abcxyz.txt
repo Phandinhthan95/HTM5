@@ -1,0 +1,2 @@
+stringfy (chuyen tu object sang string)
+parin (chuyen thu string sang object)

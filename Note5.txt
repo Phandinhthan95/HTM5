@@ -1,0 +1,10 @@
+let la co the xay ra cung duoc, khong xay ra cung duoc
+interVal duo set là biến const lúc mình ấn pause thì hắn lấy luôn 
+và hiện đó luôn
+Nghĩa là: cứ 1 Interval thì sẽ sinh ra 1 ID
+Nhưng đến khi ấn pause thì hắn sẽ clearInterval 
+
+
+
+() se thuc hien ngay khi duoc goi
+neu không có () thì sẽ load xong mới chạy.

@@ -1,0 +1,21 @@
+<html>
+<h1> JavaScript While Loop </h1>
+<p> id="demo"></p>
+<script>
+function factorial(num) {
+if (i == 0)
+return=0;
+else if (i == 1) return 1;
+else {
+var result = num ;
+result = result * (i-1);
+
+}
+while (num < 10) {
+text+ ="<br> The number is " + result;
+i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+<body>
+<p> Open "myWindow" and move the new widow to the top left corner of the screen: </p>
+<button Onclick="openWin()"> Open "myWindow" </button>
+<button Onclick="moveWin()"> Move "myWindow" </button>
+<script>
+var myWindow
+funcition openWin() {
+myWindow= window.open("","_blank","height=100,width=100");
+myWindow.document.write("<p> This is my window </p>");}
+myWindow.blur();
+}
+
+
+funcition moveWin() {
+myWindow=window.move("","_blank","height=150,width=200");
+myWindow-document.write("<p> I replaced the current window. </p>");
+myWindow.focus();
+}
+
+
+
+Offset
+Order 
+Jusitfy-content-
+Align-items
+Align-self
